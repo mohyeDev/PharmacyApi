@@ -29,4 +29,6 @@ public class PharmacyDbContext : DbContext
     public DbSet<Sale>Sales { get; set; }
     
     public DbSet<SaleItem> SaleItems { get; set; }
+    
+    public DbSet<Inventory> Inventories { get; set; }
 }
