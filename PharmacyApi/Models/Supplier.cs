@@ -11,4 +11,6 @@ public class Supplier
     public string ContactInfo { get; set; }
     
     public string? Address { get; set; }
+
+    public List<Purchase> Purchases { get; set; } = new();
 }

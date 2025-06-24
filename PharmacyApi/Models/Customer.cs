@@ -17,4 +17,6 @@ public class Customer
     public string? Address { get; set; }
 
     public DateTime RegistrationDate { get; set; } = DateTime.Now;
+
+    public List<Sale> Sales { get; set; } = new();
 }
