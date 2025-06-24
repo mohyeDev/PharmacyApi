@@ -19,6 +19,7 @@
     <ItemGroup>
       <Folder Include="Dtos\Purchase\" />
       <Folder Include="Dtos\Sale\" />
+      <Folder Include="Migrations\" />
     </ItemGroup>
 
 </Project>
