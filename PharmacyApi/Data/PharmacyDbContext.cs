@@ -22,4 +22,7 @@ public class PharmacyDbContext : DbContext
     public DbSet<Supplier> Suppliers { get; set; }
     
     public DbSet<Customer> Customers { get; set; }
+    
+    public DbSet<Purchase> Purchases { get; set; }
+    public DbSet<PurchaseItem> PurchaseItems { get; set; }
 }
